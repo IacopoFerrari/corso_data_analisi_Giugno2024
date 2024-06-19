@@ -1,5 +1,0 @@
-prerequisiti:
-cicli for, liste, list_comprehension, funzioni,	
-
-esercizi con scopo:
-
