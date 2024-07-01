@@ -1,0 +1,1 @@
+Metti su un programma da riga di comando che permetta all'utente di fare ricerche su un motore di ricerca sul browser, una volta che l'utente ha inserito la stringa fai la requests con query di ricerca quella stringa. Poi analizza la risposta e stampa i link ricevuti dalla ricerca.

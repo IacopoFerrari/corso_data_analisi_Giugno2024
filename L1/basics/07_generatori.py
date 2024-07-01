@@ -1,14 +1,14 @@
-def quad_gen(n=10):
+def quad_gen(n=10): #generatore
     print(f"Genero quadrati da 1 a {n**2}")
     for i in range(1,n+1):
-        #print("passo nel generatore")
+        print("passo nel generatore")
         yield i**2
 
-def quad_func(n=10):
+def quad_func(n=10): #funzione
     print(f"Genero quadrati da 1 a {n**2}")
     res = []
     for i in range(1,n+1):
-        #print("passo nella funzione")
+        print("passo nella funzione")
         res.append(i**2)
     return res
 
@@ -17,6 +17,7 @@ if __name__ =="__main__":
     print(gen)
     for x in gen:
         print(x, end=" ")
+        # altre operazioni
     
     print("\n")
     print(quad_func())

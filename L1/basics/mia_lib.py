@@ -12,6 +12,9 @@ diz = {
 def dimmi_i_miei_dati(nome_cognome):
     return diz[nome_cognome]
 
+
+print("valore variabile __name__ nel file mia_lib: ", __name__)
+
 if __name__ == "__main__":
     print("eseguo il codice nel MAIN di mia lib")
     a = dimmi_i_miei_dati("Ferrari")

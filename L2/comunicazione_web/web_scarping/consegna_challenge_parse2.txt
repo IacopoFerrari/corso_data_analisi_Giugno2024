@@ -1,0 +1,5 @@
+attraverso la libreria request e la classe BeautifulSoap della libreria bs4, fai una richiesta get all'url 
+http://web-13.challs.olicyber.it/
+per ottenere la flag che si trova all'interno di un particolare tag HTML
+NB: in questo caso non troverai la parola flag e le parentesi graffe che la delimitano.
+suggerimento: se visiti l'indirizzo web da browser ti accorgerai di quali sono le lettere della flag

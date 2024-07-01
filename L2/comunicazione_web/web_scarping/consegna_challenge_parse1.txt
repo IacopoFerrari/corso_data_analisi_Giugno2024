@@ -1,0 +1,5 @@
+attraverso la libreria request e la classe BeautifulSoap della libreria bs4, fai una richiesta get all'url 
+http://web-12.challs.olicyber.it/
+per ottenere la flag che si trova all'interno di un particolare tag HTML.
+N.B. la flag ha formato 
+flag{...}

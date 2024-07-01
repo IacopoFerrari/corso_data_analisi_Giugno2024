@@ -23,8 +23,8 @@ def is_prime(n):
 
 def main():
     #i for li abbiamo già accennati:, approfondiamoli:
-    l = [17,31,13,11,19,5,3,10,29]
-    print("CICLO for con continue")
+    l = [17,31,13,11,19,5,3,10,29,12,6]
+    print("CICLO for con break")
     for el in l:
         if not is_prime(el):
             print(f"trovato numero {el} non primo, esco dal ciclo")
@@ -36,11 +36,13 @@ def main():
     print("CICLO for con continue")
     for el in l:
         if not is_prime(el):
-            print(f"trovato numero {el} non primo, esco dal ciclo")
+            print(f"trovato numero {el} non primo, esco dall'iterazione")
             continue
 
         else:
             print(f"{el} è numero primo")
+        
+        print("iterazione terminata")
 
     #CICLI INDEFINITI in python NON esiste il ciclo do ... while():
     contatore = 1
@@ -61,7 +63,7 @@ def main():
 
     Esercizio 3: Lista delle Prime Tre Lettere Maiuscole di una Parola
     Utilizza list comprehension con un'istruzione continue per creare una lista delle prime tre lettere maiuscole 
-    di una parola data.    
+    di una parola data. 
     """
     
 

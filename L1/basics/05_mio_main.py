@@ -1,4 +1,5 @@
-from mia_lib import dimmi_i_miei_dati
+#from mia_lib import dimmi_i_miei_dati
+import mia_lib
 import random
 import time
 
@@ -15,4 +16,5 @@ if __name__ == "__main__":
     a = True
     b = False
     c = 5.4
+    print("valore variabile __name__ nel file mio_main: ", __name__)
     

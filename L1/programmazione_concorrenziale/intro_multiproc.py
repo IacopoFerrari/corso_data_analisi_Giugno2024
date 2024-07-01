@@ -31,8 +31,8 @@ if __name__ == "__main__":
 
     for lista_interna in l:
         i+=1
-        lista_processi.append(th.Thread(target=calcola,args=(lista_interna,q,i))) 
-        #lista_processi.append(mp.Process(target=calcola,args=(lista_interna,q,i))) 
+        #lista_processi.append(th.Thread(target=calcola,args=(lista_interna,q,i))) 
+        lista_processi.append(mp.Process(target=calcola,args=(lista_interna,q,i))) 
 
 
     for p in lista_processi:

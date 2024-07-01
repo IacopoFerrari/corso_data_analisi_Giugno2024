@@ -1,4 +1,5 @@
-#import librerie necessarie
+# import librerie necessarie
+# import numpy as np
 
 # VARIABILI GLOBALI:
 a = 10
@@ -30,8 +31,14 @@ def ciclista(lista):
 
 def main():
     #VARIABILI LOCALI
+    l_vuota = []
+    print("l vuota:", l_vuota)
+    print("tipo di l vuole:", type(l_vuota))
+    n = "3"
+    print("tipo di n: ", type(n))
     l = [1,2,3,4,5]
-    diz = {"nome" : "Mario", "cognome" : "Rossi", "eta" : 90}
+    diz = {"nome" : "Mario", "cognome" : "Rossi", "eta" : 90, 1:"2"}
+    print("diz: ", diz)
     num = 10
     
     print("lista PRE chiamata funzione: ", l)
@@ -54,6 +61,6 @@ def main():
 
 
     
-
+print("inizio ad eseguire il main:")
 if __name__ == "__main__": # perché si usa? dopo lo facciamo vedere con un esempio magari
-    main()
+    main() # richiamiamo la funzione

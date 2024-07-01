@@ -21,9 +21,10 @@ def main():
 
   #multiprocessing
   st = time.time()
-  #with mp.Pool() as pool:
-    #result = pool.map(fattoriale, numeri)
-  lista_thread = []
+  with mp.Pool() as pool:
+    result = pool.map(fattoriale, numeri)
+  #lista_thread = []
+  """
   for i in numeri:
       lista_thread.append(th.Thread(target=fattoriale,args=(i,))) 
         #lista_processi.append(mp.Process(target=calcola,args=(lista_interna,q,i))) 
@@ -34,7 +35,7 @@ def main():
 
   for p in lista_thread:
       p.join()    
-
+  """
   ft = time.time()
   print("tempo utilizzato per l'esecuzione con multiprocessing dei numeri grandi: ", ft-st)
 

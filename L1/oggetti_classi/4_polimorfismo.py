@@ -6,7 +6,6 @@ class Persiano:
         print("Il mio persiano NON graffia")
 
 class Siamese:
-
     def miagola(self):
         print("Il mio siamese NON miagola")
     

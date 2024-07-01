@@ -1,0 +1,3 @@
+In questa challenge una rete di pagine è raggiungibile tramite l'URL http://web-16.challs.olicyber.it/. La flag è contenuta all'interno del titolo (<h1>) di una di queste pagine. L'obiettivo è traversare automaticamente la rete di pagine fino al raggiungimento di quella che contiene la flag.
+
+Si consiglia di utilizzare il metodo find_all della libreria BeautifulSoup per isolare i tag <a> ed estrarne l'indirizzo di destinazione dall'attributo href, e di mantenere un insieme delle pagine visitate per non analizzarle più di una volta, per evitare di creare carico inutilmente al server sottoposto all'analisi e di rimanere intrappolati in un ciclo infinito nel caso in cui due o più pagine dovessero linkarsi a vicenda.

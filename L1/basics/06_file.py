@@ -28,7 +28,7 @@ def main():
     Le righe dispari invece le salvi in un dizionario che abbia come chiave la parola della riga e come valore il numero della riga.
     Togli i caratteri '\n' dai dati che hai prodotto e poi apri un file in scrittura che si chiami resoconto.txt, 
     fai in modo che lo crei se non esiste e scrivici dentro gli elementi della lista creata
-    tutti uniti tra di loro e separati da " - " (cioè spazio trattino spazio)
+    tutti uniti tra di loro e separati da " - " (cioè spazio trattino spazio) 
     """
 
 
