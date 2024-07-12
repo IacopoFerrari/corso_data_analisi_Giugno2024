@@ -6,6 +6,9 @@ __pycache__/
 # Virtual environment
 venv_L1/
 
+# data folder 22_12
+L3/data/22_12
+
 # C extensions
 *.so
 
